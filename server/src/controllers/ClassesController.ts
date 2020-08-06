@@ -13,6 +13,7 @@ interface ShedulesItem {
 
 export default class ClassesController {
 
+
   async index(request: Request, response: Response) {
       const filters = request.query;
 
